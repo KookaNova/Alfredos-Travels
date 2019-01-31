@@ -13,7 +13,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SphereEvent.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="120">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -29,7 +30,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SphereEvent.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SphereEvent.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="46" />
     <option name="width" value="1080" />
@@ -72,12 +80,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548897055454</updated>
-      <workItem from="1548897064739" duration="631000" />
+      <workItem from="1548897064739" duration="1829000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="631000" />
+    <option name="totallyTimeSpent" value="1829000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -89,7 +97,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="46" width="1080" height="646" extended-state="1" />
+    <frame x="-1" y="46" width="1080" height="646" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Image Layers" />
@@ -138,7 +146,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SphereEvent.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
