@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: a114bf36cb792544fa16757db5f58dac
+guid: 2ff2d01021c71ca4485126d25bb9a0c7
 TextureImporter:
   fileIDToRecycleName:
-    21300000: DustPuff_0
-    21300002: DustPuff_1
-    21300004: DustPuff_2
+    21300000: Spidey_0
+    21300002: SpideyWeb
+    21300004: Spidey_1
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,6 +24,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -34,7 +36,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -48,7 +50,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 0
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -85,53 +87,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DustPuff_0
+      name: Spidey_0
       rect:
         serializedVersion: 2
-        x: 1472
-        y: 1137
-        width: 98
-        height: 104
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58e189da7f7d3664798809b40654b226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DustPuff_1
-      rect:
-        serializedVersion: 2
-        x: 1659
-        y: 1140
-        width: 91
-        height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6083a64b6685d854fad99671449798bd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DustPuff_2
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 273
-        width: 76
-        height: 74
+        x: 58
+        y: 559
+        width: 906
+        height: 929
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,7 +101,47 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 885142be50fcc5d47aee698b8e079143
+      spriteID: 2e55500205ddc4340a6ae1ca798693b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpideyWeb
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 588
+        width: 36
+        height: 869
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f648017128e592f47869e3c2cc4324d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spidey_1
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 559
+        width: 906
+        height: 929
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef14875ccf65614ea36de9b1d293cfa
       vertices: []
       indices: 
       edges: []
@@ -147,12 +149,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 10d0c027f21443d4c979348d0dd39b3e
+    spriteID: a642ca2037ade0446ac76b39e1725950
     vertices: []
     indices: 
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
