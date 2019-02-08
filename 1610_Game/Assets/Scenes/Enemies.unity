@@ -5071,6 +5071,7 @@ GameObject:
   - component: {fileID: 289498276}
   - component: {fileID: 289498278}
   - component: {fileID: 289498279}
+  - component: {fileID: 289498280}
   m_Layer: 0
   m_Name: MeatyRoller
   m_TagString: Untagged
@@ -5142,6 +5143,21 @@ ConstantForce2D:
   m_Force: {x: -1, y: 0}
   m_RelativeForce: {x: 0, y: 0}
   m_Torque: 0
+--- !u!114 &289498280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289498275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 133a842cb3dfac444b404ff3b6d34c96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Meaty Roller
+  BaseColor: {r: 0.8490566, g: 0, b: 0, a: 0}
+  MeatColor: {r: 0.8301887, g: 0.44851822, b: 0.13705944, a: 0}
 --- !u!1 &426909443
 GameObject:
   m_ObjectHideFlags: 0
@@ -5152,6 +5168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 426909444}
   - component: {fileID: 426909445}
+  - component: {fileID: 426909446}
   m_Layer: 0
   m_Name: MrRoller_0
   m_TagString: Untagged
@@ -5221,6 +5238,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &426909446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426909443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422c40477936e564bba8f7573a954ccd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Mr. Roller
+  BaseColor: {r: 0.28773582, g: 1, b: 0.90603447, a: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -5608,7 +5639,7 @@ GameObject:
   - component: {fileID: 910299178}
   - component: {fileID: 910299179}
   m_Layer: 0
-  m_Name: MrRoller
+  m_Name: RollerEnemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

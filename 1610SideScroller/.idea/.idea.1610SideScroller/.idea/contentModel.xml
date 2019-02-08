@@ -7,9 +7,13 @@
       <e p="1610SideScroller.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Animal.cs" t="Include" />
         <e p="Anthony's Class" t="Include">
           <e p="SphereEvent.cs" t="Include" />
         </e>
+        <e p="Fish.cs" t="Include" />
+        <e p="Mammals.cs" t="Include" />
+        <e p="Sphere.cs" t="Include" />
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

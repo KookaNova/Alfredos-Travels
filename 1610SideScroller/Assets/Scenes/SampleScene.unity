@@ -5705,6 +5705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1724549353}
   - component: {fileID: 1724549354}
+  - component: {fileID: 1724549355}
   m_Layer: 0
   m_Name: Glowing_Sphere_0
   m_TagString: Untagged
@@ -5771,6 +5772,19 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!114 &1724549355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1724549352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7ff4e574dc32441a45cb1a55935348, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Sphere
+  MainColor: {r: 1, g: 0.36320752, b: 0.36320752, a: 1}
 --- !u!1 &2004350894
 GameObject:
   m_ObjectHideFlags: 0
