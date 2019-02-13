@@ -145,8 +145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Animal
-  Health: 100
-  Speed: 10.5
+  Health: {fileID: 11400000, guid: 8e25cdb153b9b2e458c3747a4603131d, type: 2}
+  Speed: {fileID: 11400000, guid: b8f3ab2fa42e66a4f89f75c7cb519a45, type: 2}
   CanMove: 0
   SkinColor: {r: 0.9056604, g: 0.55108577, b: 0.55108577, a: 0}
 --- !u!65 &647312103
@@ -374,8 +374,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Mammal
-  Health: 100
-  Speed: 10.5
+  Health: {fileID: 0}
+  Speed: {fileID: 0}
   CanMove: 1
   SkinColor: {r: 0.6037736, g: 0.15663938, b: 0.15663938, a: 1}
   FurCount: 10000
@@ -492,8 +492,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Name: Fish
-  Health: 0
-  Speed: 0
+  Health: {fileID: 11400000, guid: 8e25cdb153b9b2e458c3747a4603131d, type: 2}
+  Speed: {fileID: 11400000, guid: b8f3ab2fa42e66a4f89f75c7cb519a45, type: 2}
   CanMove: 0
   SkinColor: {r: 0.10933607, g: 0.19423468, b: 0.5943396, a: 0}
   FinColor: {r: 0.8584906, g: 0.5491099, b: 0, a: 0}
