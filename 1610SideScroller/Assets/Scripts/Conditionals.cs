@@ -2,34 +2,33 @@
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Conditionals : MonoBehaviour
 {
-    public bool CanWalk;
+    public UnityEvent OnEvent;
+
+    public UnityEvent OffEvent;
+    //should be able to turn on and off anything, not just a light
+    
+    public bool OnBool;
     public int Number;
     public string Password;
 
     void Update()
     {
-        if (CanWalk)
+        if (OnBool)
         {
-            print("True");
+            OnEvent.Invoke();
         }
         else
         {
-            print(false);
+            OffEvent.Invoke();
         }
+        
+       // print(Number >= 10) "Greater" : "Lesser");
 
-<<<<<<< HEAD
-        print(Number >= 10) "Greater" : "Lesser");
-=======
-        //print(Number >= 10) "Greater" : "Lesser");
->>>>>>> master
-
-        print(Password == "S4LV4D0R" ? "The Password is Correct" : "The Password is Incorrect");
+       // print(Password == "S4LV4D0R" ? "The Password is Correct" : "The Password is Incorrect");
     }
 
 }
-//how to make a light switch?
-//create an if statement and an event
-//make a bool turn on and off an event or something
