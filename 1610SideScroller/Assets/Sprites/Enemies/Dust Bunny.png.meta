@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a114bf36cb792544fa16757db5f58dac
+guid: 067b3289b81fbe9488ad498d56306a0f
 TextureImporter:
   fileIDToRecycleName:
     21300000: DustPuff_0
@@ -9,7 +9,7 @@ TextureImporter:
     21300008: DustBunny_1
     21300010: DustBunny_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0

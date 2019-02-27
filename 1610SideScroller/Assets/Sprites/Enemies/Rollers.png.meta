@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: efa99f490b3e38f43b693da81072a057
+guid: 916e966bf07d1d04b924a861658757c2
 TextureImporter:
   fileIDToRecycleName:
     21300000: MrRoller_0
     21300002: MeatyRoller_0
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0

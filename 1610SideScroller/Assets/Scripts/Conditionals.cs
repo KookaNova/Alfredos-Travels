@@ -20,7 +20,7 @@ public class Conditionals : MonoBehaviour
             print(false);
         }
 
-        print(Number >= 10) "Greater" : "Lesser");
+        //print(Number >= 10) "Greater" : "Lesser");
 
         print(Password == "S4LV4D0R" ? "The Password is Correct" : "The Password is Incorrect");
     }

@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 2ff2d01021c71ca4485126d25bb9a0c7
+guid: 729cbb57cdd6fb94e85bdbe71c6c8849
 TextureImporter:
   fileIDToRecycleName:
     21300000: Spidey_0
     21300002: SpideyWeb
     21300004: Spidey_1
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 9
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
