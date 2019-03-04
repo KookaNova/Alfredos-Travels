@@ -5,32 +5,35 @@ using UnityEngine.Events;
 
 public class MoveCharacter : MonoBehaviour
 {
-   public UnityEvent OnGrounded, OffGrounded;
+//   public UnityEvent OnGrounded, OffGrounded;
 
-   public float Speed = 1;
+   public float Speed;
+   public float JumpSpeed;
+   public float Gravity;
    
-   private CharacterController controller;
-   private Vector3 position;
+   private CharacterController _controller;
+   private Vector3 _position;
 
    void Start()
    {
-      controller = GetComponent<CharacterController>();
+      _controller = GetComponent<CharacterController>();
    }
 
    void Update()
    {
-      if (controller.isGrounded)
+      if (_controller.isGrounded)
       {
-         OnGrounded.Invoke();
+         _position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
+         _position.y = Input.GetAxis("Vertical") * Speed * Time.deltaTime;
       }
-      else
+
+      if (Input.GetButton("Jump"))
       {
-         OffGrounded.Invoke();
+         _position.y = JumpSpeed;
       }
+
+      _position.y = _position.y - Gravity * Time.deltaTime;
       
-      position.y = Input.GetAxis("Vertical")*Speed*Time.deltaTime;
-      position.x = Input.GetAxis("Horizontal")*Speed*Time.deltaTime;
-      
-      controller.Move(position);
+      _controller.Move(_position);
    }
 }
