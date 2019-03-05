@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.PlayerLoop;
 
 public class SimpleMoveCharacter : MonoBehaviour
 {
     public float Speed;
     public float JumpSpeed;
     public float Gravity;
+    
+    private float _increment = 5;
+    private float _maxSpeed = 25;
 
     private CharacterController _controller;
     private Vector3 _position;
@@ -18,13 +22,30 @@ public class SimpleMoveCharacter : MonoBehaviour
 
     void Update()
     {
-        if (_controller.isGrounded && Input.GetButton("Jump"))
+        if (_controller.isGrounded)
         {
-            _position.y = JumpSpeed * Time.deltaTime;
+            if (Input.GetButton("Jump"))
+            {
+                _position.y = JumpSpeed * Time.deltaTime;
+            }
         }
-      
+        else
+        {
+            _position.y += Gravity * Time.deltaTime;
+        }
+        
         _position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
-        _position.y += Gravity * Time.deltaTime;
         _controller.Move(_position);
+
+        if (Input.GetAxisRaw("Horizontal") < 0 || (Input.GetAxisRaw("Horizontal") > 0))
+        {
+            Speed += _increment * Time.deltaTime;
+        }
+        else
+        {
+            Speed -= _increment * Time.deltaTime;
+        }
+        Speed = Mathf.Clamp (Speed, 10, _maxSpeed);
+
     }
 }
