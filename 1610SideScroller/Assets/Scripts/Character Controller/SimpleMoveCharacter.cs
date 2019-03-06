@@ -36,7 +36,8 @@ public class SimpleMoveCharacter : MonoBehaviour
         
         _position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
         _controller.Move(_position);
-
+        
+// acceleration
         if (Input.GetAxisRaw("Horizontal") < 0 || (Input.GetAxisRaw("Horizontal") > 0))
         {
             Speed += _increment * Time.deltaTime;
