@@ -10,7 +10,7 @@ public class SimpleMoveCharacter : MonoBehaviour
     public float Gravity;
     
     private float _increment = 5;
-    private float _maxSpeed = 25;
+    private float _maxSpeed = 35;
 
     private CharacterController _controller;
     private Vector3 _position;
@@ -44,9 +44,11 @@ public class SimpleMoveCharacter : MonoBehaviour
         }
         else
         {
-            Speed -= _increment * Time.deltaTime;
+            Speed -= _increment * 10 * Time.deltaTime;
         }
         Speed = Mathf.Clamp (Speed, 10, _maxSpeed);
+        
+        
 
     }
 }
