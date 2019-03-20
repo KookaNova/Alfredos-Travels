@@ -27,8 +27,10 @@
           <e p="Mammals.cs" t="Include" />
           <e p="MonoEvents.cs" t="Include" />
           <e p="PowerUpBase.cs" t="Include" />
+          <e p="ReturnFunctions.cs" t="Include" />
           <e p="RotateCharacterSprite.cs" t="Include" />
           <e p="Sphere.cs" t="Include" />
+          <e p="UpdateBar.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

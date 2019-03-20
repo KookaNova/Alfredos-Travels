@@ -7,14 +7,15 @@ public class Fish : Animal
 	public Color FinColor;
 
 	// Use this for initialization
-	void Start() 
+	void Start()
 	{
-		print("Hello, World!");
+		newColor = Color.blue;
+		GetComponent<SpriteRenderer>().color = SkinColor;
 	}
 	
 	// Update is called once per frame
 	void Update() 
 	{
-		
+		transform.Rotate(0,1,0);
 	}
 }

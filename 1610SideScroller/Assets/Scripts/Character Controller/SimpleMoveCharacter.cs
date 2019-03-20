@@ -51,4 +51,9 @@ public class SimpleMoveCharacter : MonoBehaviour
         
 
     }
+
+    public Vector3 Move()
+    {
+        return _position;
+    }
 }
