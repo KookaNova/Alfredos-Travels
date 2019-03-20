@@ -5,6 +5,8 @@ TextureImporter:
     21300000: Dust Bunny_0
     21300002: Dust Bunny_1
     21300004: Dust Bunny_2
+    21300006: DustPuff_0
+    21300008: DustPuff_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -150,7 +152,7 @@ TextureImporter:
         width: 710
         height: 815
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,7 +172,7 @@ TextureImporter:
         width: 697
         height: 616
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -190,13 +192,53 @@ TextureImporter:
         width: 957
         height: 318
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: ae9cc0fb2e4eb044f97cb2c6946e54df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustPuff_0
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 1137
+        width: 98
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19aeb5458bb36e4981b2579fb8eb5a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DustPuff_1
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1139
+        width: 91
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbfd4f83ae2e5f4c982d24366966566
       vertices: []
       indices: 
       edges: []

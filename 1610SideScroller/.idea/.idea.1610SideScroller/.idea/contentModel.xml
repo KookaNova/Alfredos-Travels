@@ -11,6 +11,7 @@
           <e p="SphereEvent.cs" t="Include" />
         </e>
         <e p="Scripts" t="Include">
+          <e p="AddForce.cs" t="Include" />
           <e p="Animal.cs" t="Include" />
           <e p="Character Controller" t="Include">
             <e p="MoveBase.cs" t="Include" />
