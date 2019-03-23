@@ -14,6 +14,7 @@
           <e p="AddForce.cs" t="Include" />
           <e p="Animal.cs" t="Include" />
           <e p="Character Controller" t="Include">
+            <e p="HorizontalMove.cs" t="Include" />
             <e p="MoveBase.cs" t="Include" />
             <e p="MoveCharacter.cs" t="Include" />
             <e p="MoveSingleJump.cs" t="Include" />
