@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bdbd19ebc71f15541864c541e28fb475, type: 3}
-  m_Name: CollectibleButtons
+  m_Script: {fileID: 11500000, guid: 1d07554981cb57745b4f0f9af95496d1, type: 3}
+  m_Name: Player
   m_EditorClassIdentifier: 
-  CollectionList: []
+  output: Player
