@@ -1,12 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.UIElements.StyleEnums;
+using UnityEngine.UI;
 
 [CreateAssetMenu]
 public class Collection : ScriptableObject
 {
 
     public List<FloatData> CollectionList;
+    
     
     public void Collect(FloatData obj)
     {

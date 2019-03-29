@@ -29,6 +29,7 @@
           <e p="PowerUpBase.cs" t="Include" />
           <e p="ReturnFunctions.cs" t="Include" />
           <e p="RotateCharacterSprite.cs" t="Include" />
+          <e p="ScoreKeeper.cs" t="Include" />
           <e p="Sphere.cs" t="Include" />
           <e p="StringData.cs" t="Include" />
           <e p="TriggerTagEvent.cs" t="Include" />
