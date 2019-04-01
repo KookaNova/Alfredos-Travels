@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Experimental.PlayerLoop;
 
@@ -37,6 +38,7 @@ public class SimpleMoveCharacter : MonoBehaviour
         _position.x = Input.GetAxis("Horizontal") * Speed * Time.deltaTime;
         _controller.Move(_position);
         
+        
 // acceleration
         if (Input.GetAxisRaw("Horizontal") < 0 || (Input.GetAxisRaw("Horizontal") > 0))
         {
@@ -46,12 +48,8 @@ public class SimpleMoveCharacter : MonoBehaviour
         {
             Speed -= _increment * 10 * Time.deltaTime;
         }
-        Speed = Mathf.Clamp (Speed, 10, _maxSpeed);
-        
-        
-
-    }
-
+        Speed = Mathf.Clamp (Speed, 10, _maxSpeed);     
+ }
     public Vector3 Move()
     {
         return _position;
