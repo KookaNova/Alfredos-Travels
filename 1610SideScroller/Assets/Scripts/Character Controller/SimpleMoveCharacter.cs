@@ -11,7 +11,7 @@ public class SimpleMoveCharacter : MonoBehaviour
     public float Gravity;
     
     private float _increment = 5;
-    private float _maxSpeed = 35;
+    private float _maxSpeed = 40;
 
     private CharacterController _controller;
     private Vector3 _position;
