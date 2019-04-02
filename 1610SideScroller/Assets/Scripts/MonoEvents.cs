@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Behaviours : MonoBehaviour
+public class MonoEvents : MonoBehaviour
 {
     public UnityEvent OnAwake, OnStart, MouseDown, MouseEnter, MouseExit,
         MouseRight, TriggerEnter, TriggerExit, CollisionEnter, DestroyEvent;

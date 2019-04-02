@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class FlipSprite : MonoBehaviour
 {
-    void Update()
+    private void Update()
     {
-        Vector3 characterScale = transform.localScale;
+        var characterScale = transform.localScale;
         
         if (Input.GetAxis("Horizontal") < 0) 
         {
