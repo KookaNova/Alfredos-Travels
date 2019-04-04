@@ -10,6 +10,6 @@ public class StringData : ScriptableObject
     public virtual string Output
     {
         get { return output;}
-        set { this.output = output; }
+        set { this.output = Output; }
     }
 }
