@@ -26,6 +26,7 @@
           <e p="FlipSprite.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="FunctionsWithParams.cs" t="Include" />
+          <e p="GameOver.cs" t="Include" />
           <e p="ID" t="Include">
             <e p="NameID.cs" t="Include" />
             <e p="ObjectID.cs" t="Include" />
