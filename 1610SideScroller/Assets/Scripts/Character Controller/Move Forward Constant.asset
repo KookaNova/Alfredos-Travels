@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d11329b07bae64640a1c830f0e984982, type: 3}
-  m_Name: Player Single Jump
+  m_Script: {fileID: 11500000, guid: 14d03f631a8041646be0e75d80243b30, type: 3}
+  m_Name: Move Forward Constant
   m_EditorClassIdentifier: 
-  Speed: 20
+  Speed: 10
   JumpSpeed: 15
   Gravity: -1
