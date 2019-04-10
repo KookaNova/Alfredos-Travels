@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu]
-public class MoveForwardConstant : MoveBase
+public class ForwardConstant : MoveBase
 {
     public override void Move(CharacterController controller)
     {
