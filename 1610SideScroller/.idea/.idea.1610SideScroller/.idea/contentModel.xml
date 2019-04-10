@@ -23,7 +23,6 @@
           <e p="ChangeTimeScale.cs" t="Include" />
           <e p="Character Controller" t="Include">
             <e p="MoveSnapHorizontal.cs" t="Include" />
-            <e p="MoveZConstant.cs" t="Include" />
             <e p="SimpleMoveCharacter.cs" t="Include" />
           </e>
           <e p="Collection.cs" t="Include" />

@@ -8,7 +8,7 @@ public class MoveSnapHorizontal : MonoBehaviour
     public float Speed, JumpSpeed, Gravity;
     public Transform Location;
     
-    public int Setter;
+    public int Setter = 1;
     
     private bool _isChangingLane;
     private Vector3 _position;
@@ -22,34 +22,49 @@ public class MoveSnapHorizontal : MonoBehaviour
     
     private void Update()
     {
-        if (Input.GetKeyDown("d") || Input.GetKeyDown("a"))
+        if (_controller.isGrounded)
         {
-            _isChangingLane = true;
+            if (Input.GetButton("Jump"))
+            {
+                _position.y = JumpSpeed * Time.deltaTime;
+            }
+            
+            if (Input.GetKeyDown("d"))
+            {
+                Setter = Setter + 1;
+                _isChangingLane = true;
+            }
+            if (Input.GetKeyDown("a"))
+            {
+                Setter = Setter - 1;
+                _isChangingLane = true;
+            }
+            if (Setter == 2 && _isChangingLane == true)
+            {
+                Location.position = new Vector3(1.5f, 0, 0);
+            }
+            if (Setter == 1 && _isChangingLane == true)
+            {
+                Location.position = new Vector3(0, 0, 0);
+            }
+            if (Setter == 0 && _isChangingLane == true)
+            {
+                Location.position = new Vector3(-1.5f, 0, 0);
+            }
+        }
+        else
+        {
+            _position.y += Gravity * Time.deltaTime;
         }
 
-        if (Input.GetKeyDown("d"))
+        if (Input.GetKey("s"))
         {
-            Setter = Setter + 1;
+            transform.localScale = new Vector3(1,0.5f, 1);
         }
-        if (Input.GetKeyDown("a"))
+        else if (!Input.GetKey("s"))
         {
-            Setter = Setter - 1;
+            transform.localScale = new Vector3(1,1, 1);
         }
-        if (Setter == 2 && _isChangingLane == true)
-        {
-            Location.position = new Vector3(1.5f, 0, 0);
-        }
-        if (Setter == 1 && _isChangingLane == true)
-        {
-            Location.position = new Vector3(0, 0, 0);
-        }
-        if (Setter == 0 && _isChangingLane == true)
-        {
-            Location.position = new Vector3(-1.5f, 0, 0);
-        }
-        
-        
-        _position.y += Gravity * Time.deltaTime;
         _controller.Move(_position);
     }
 }
