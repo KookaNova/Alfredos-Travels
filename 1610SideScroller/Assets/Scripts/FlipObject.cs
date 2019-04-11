@@ -6,6 +6,6 @@ public class FlipObject : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        transform.Rotate(0,180,0);
+        transform.Rotate(0, 180, 0);
     }
 }
