@@ -246,8 +246,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.1981583, y: 6.6621532, z: 8}
-  m_Center: {x: -0.0000038146973, y: -0.25656605, z: 0}
+  m_Size: {x: 2.903778, y: 6.569313, z: 8}
+  m_Center: {x: -0.141922, y: -1.0240879, z: 0}
 --- !u!65 &8860544423509941518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -259,8 +259,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.139687, y: 10.364918, z: 8}
-  m_Center: {x: 0.056308746, y: -1.2701054, z: 0}
+  m_Size: {x: 6.3045654, y: 10.176031, z: 8}
+  m_Center: {x: 0.024383545, y: -1.175662, z: 0}
 --- !u!114 &8860544423509941519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5170,6 +5170,17 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 8860544422575249242}
         m_MethodName: set_isKinematic
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8860544423509941519}
+        m_MethodName: set_enabled
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

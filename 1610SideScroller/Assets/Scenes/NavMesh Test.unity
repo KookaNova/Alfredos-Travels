@@ -19031,7 +19031,7 @@ WindZone:
   m_Enabled: 1
   m_Mode: 0
   m_Radius: 20
-  m_WindMain: 2.61
+  m_WindMain: 3.26
   m_WindTurbulence: 0.03
   m_WindPulseMagnitude: 0.94
   m_WindPulseFrequency: 2.21
@@ -41352,7 +41352,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 4294967295
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}

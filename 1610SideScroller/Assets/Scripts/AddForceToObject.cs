@@ -4,13 +4,7 @@ using UnityEngine;
 
 public class AddForceToObject : MonoBehaviour
 {
-    public float ForceX;
-    public float ForceY;
-    public float ForceZ;
-
-    public float TorqueX;
-    public float TorqueY;
-    public float TorqueZ;
+    public float ForceX, ForceY, ForceZ, TorqueX, TorqueY, TorqueZ;
     
     public Rigidbody RigidBody;
 

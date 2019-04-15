@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6623789125523937729}
   - component: {fileID: 6623789125523937742}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MeatFace_Regular
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6623789126037737519}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Meat Roller
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -124,7 +124,7 @@ GameObject:
   - component: {fileID: 6623789126083741080}
   - component: {fileID: 6623789126083741083}
   - component: {fileID: 6623789126083741082}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FlipFwdObjTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,8 +139,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6623789126083741084}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.048767, y: 3.7, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -30.048767, y: 3.7, z: 0}
+  m_LocalScale: {x: 1.5234375, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6623789126037737519}
   m_RootOrder: 2
@@ -247,7 +247,7 @@ GameObject:
   - component: {fileID: 6623789126536671736}
   - component: {fileID: 6623789126536671737}
   - component: {fileID: 6623789126536671686}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MeatRB
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   - component: {fileID: 6623789126545378554}
   - component: {fileID: 6623789126545378557}
   - component: {fileID: 6623789126545378555}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: FlipBackObjTrigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,8 +400,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6623789126545378559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.3, y: -4, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 34.4, y: -4, z: 0}
+  m_LocalScale: {x: 1.5234375, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6623789126037737519}
   m_RootOrder: 1
@@ -494,7 +494,7 @@ GameObject:
   - component: {fileID: 6623789127200685145}
   - component: {fileID: 6623789127200685990}
   - component: {fileID: 6623789127200685991}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: Meaty Roller
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -635,7 +635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6623789127455824127}
   - component: {fileID: 6623789127455824124}
-  m_Layer: 0
+  m_Layer: 13
   m_Name: MeatFace_Regular (1)
   m_TagString: Enemy
   m_Icon: {fileID: 0}
