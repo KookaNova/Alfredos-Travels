@@ -8,9 +8,9 @@ public class GameOver : MonoBehaviour
     public UnityEvent DeathEvent;
     public FloatData Health;
 
-    public void Death()
+    private void Update()
     {
-        if (Health.Value <= 0f)
+        if (Health.Value <= 0)
         {
             DeathEvent.Invoke();
             print("Dead Boy");

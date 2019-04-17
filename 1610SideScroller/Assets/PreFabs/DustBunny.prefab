@@ -9444,7 +9444,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8755458255659003140}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 28.058}
   m_Children: []
   m_Father: {fileID: 8755458256523437833}
@@ -9461,8 +9461,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.5325012, y: 2.4503822, z: 1}
-  m_Center: {x: -0.3176117, y: 2.6923065, z: 0}
+  m_Size: {x: 2.3674927, y: 2.4503822, z: 1}
+  m_Center: {x: -0.17843628, y: 2.6923065, z: 0}
 --- !u!114 &8755458255659003142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14253,7 +14253,7 @@ GameObject:
   - component: {fileID: 8755458256513268392}
   m_Layer: 0
   m_Name: HurtBox
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14283,8 +14283,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.4578705, y: 6.840774, z: 1}
-  m_Center: {x: -0.15045929, y: -2.4328268, z: 0}
+  m_Size: {x: 9.257599, y: 6.458373, z: 1}
+  m_Center: {x: 0.03553772, y: -2.4367328, z: 0}
 --- !u!114 &8755458256513268398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14311,6 +14311,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
   ExitEvent:
@@ -14330,8 +14341,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.622711, y: 3.5642266, z: 1}
-  m_Center: {x: -0.10902405, y: -2.1751835, z: 0}
+  m_Size: {x: 3.3701782, y: 4.163819, z: 1}
+  m_Center: {x: -0.03942871, y: -1.8753874, z: 0}
 --- !u!1 &8755458256523437838
 GameObject:
   m_ObjectHideFlags: 0
@@ -14346,7 +14357,7 @@ GameObject:
   - component: {fileID: 8755458256523437845}
   m_Layer: 0
   m_Name: Dust Bunny_0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

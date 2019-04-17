@@ -3,6 +3,11 @@ guid: 82f4de6d8185e5d41bab3263dfbb7626
 TextureImporter:
   fileIDToRecycleName:
     21300000: Bar
+    21300002: Lose_Text
+    21300004: Agree_Text
+    21300006: MenuReturn_Text
+    21300008: DarkButton
+    21300010: WhiteButton
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -110,10 +115,10 @@ TextureImporter:
       name: Bar
       rect:
         serializedVersion: 2
-        x: 32
-        y: 910
-        width: 500
-        height: 80
+        x: 28
+        y: 908
+        width: 506
+        height: 85
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,7 +126,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ecdf9ff6e9a9a345ace6b1004a97730
+      spriteID: 86a542222dbfd8249a6830df1c19a8b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lose_Text
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 599
+        width: 582
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15138b5cde1794d4cab686fef85cdab4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agree_Text
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 399
+        width: 162
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ac4a5e38c8c1846920663c1a758032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MenuReturn_Text
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 404
+        width: 175
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91fbb0d74615b13448b40c19d98d1141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DarkButton
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 212
+        width: 271
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c603d54b1ad7b144a7cf8ae09859bbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WhiteButton
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 225
+        width: 269
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87fac012ffbbed94397c6ea52cddc25a
       vertices: []
       indices: 
       edges: []
@@ -129,7 +234,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c09ea774bd0dd564088d9d47df48a2a3
+    spriteID: ec4187ac5be8b114099f167e70ac35af
     vertices: []
     indices: 
     edges: []

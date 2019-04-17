@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ChangeTimeScale : MonoBehaviour
 {
-    public float TimeScale;
-    
+    public FloatData TimeScale;
+
     public void ChangeTime()
     {
-        Time.timeScale = TimeScale;
+        Time.timeScale = TimeScale.Value;
     }
 }
