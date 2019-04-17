@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2760629113450920257}
   - component: {fileID: 6182368221226834322}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: LeafAudio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,8 +139,8 @@ GameObject:
   - component: {fileID: 7768472696300438802}
   - component: {fileID: 7768472696300438829}
   - component: {fileID: 7768472696300438831}
-  - component: {fileID: 7768472696300438828}
-  m_Layer: 0
+  - component: {fileID: 4672392507348452986}
+  m_Layer: 14
   m_Name: HealthUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &7768472696300438828
+--- !u!114 &4672392507348452986
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,40 +250,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7768472696300438825}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3a93b9bc2056b4543a10f67158412538, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c6c7ed4115b0934b86aad9eeb3c0162, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnAwake:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  OnStart:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  MouseDown:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  MouseEnter:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  MouseExit:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  MouseRight:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  TriggerEnter:
+  EnterEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 11400000, guid: 8e25cdb153b9b2e458c3747a4603131d, type: 2}
@@ -332,21 +302,12 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  TriggerExit:
+  ExitEvent:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  CollisionEnter:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  DestroyEvent:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
+  Tag: {fileID: 11400000, guid: ba2ca0f8b18516641bd93f20d2b03e1e, type: 2}
 --- !u!1 &7768472696874647738
 GameObject:
   m_ObjectHideFlags: 0
@@ -358,7 +319,7 @@ GameObject:
   - component: {fileID: 7768472696874647739}
   - component: {fileID: 7768472696874647737}
   - component: {fileID: 7768472696874647736}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5055,7 +5016,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7768472697109482440}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: HealthUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}

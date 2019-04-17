@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3655221398927861187}
   - component: {fileID: 3655221398927861197}
   - component: {fileID: 3655221398927861186}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4711,7 +4711,7 @@ GameObject:
   - component: {fileID: 3655221399137435207}
   - component: {fileID: 3655221399137435205}
   - component: {fileID: 3655221399137435204}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ScoreUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4929,7 +4929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3655221399667445278}
   - component: {fileID: 8039192235477536433}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ScoreUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
