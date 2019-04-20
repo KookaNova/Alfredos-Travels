@@ -11,6 +11,6 @@ public class ScoreKeeper : MonoBehaviour
 
     void Update()
     {
-        ScoreText.text = "= " + Score.Value;
+        ScoreText.text = "" + Score.Value;
     }
 }
