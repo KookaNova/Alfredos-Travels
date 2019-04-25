@@ -3,8 +3,10 @@ guid: 4b2c525c6544e9644ba6b42a33903378
 TextureImporter:
   fileIDToRecycleName:
     21300000: Spidey_0
-    21300002: Spidey_1
-    21300004: web
+    21300002: spider_web
+    21300004: Spidey_1
+    21300006: SpideyStar_0
+    21300008: SpideyStar_1
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -113,17 +115,37 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 58
-        y: 559
+        y: 1075
         width: 906
         height: 929
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3848642445cdc704dbd1671ffdc5a6fa
+      spriteID: 454bd9a6ef9986f49b2edd316dc7e311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spider_web
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 1104
+        width: 36
+        height: 869
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d675dcb0e491248b0b89875a0ad8fd
       vertices: []
       indices: 
       edges: []
@@ -133,37 +155,57 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1086
-        y: 559
+        y: 1075
         width: 906
         height: 929
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3c42694d5738604e937858a35e9deab
+      spriteID: 9d894bddc9ff58e47bedf26baa37d30f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: web
+      name: SpideyStar_0
       rect:
         serializedVersion: 2
-        x: 1002
-        y: 594
-        width: 36
-        height: 863
+        x: 218
+        y: 264
+        width: 585
+        height: 584
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c74a8ed455c63542bc351f1a05e0f94
+      spriteID: 780cd0f4354ed4049adba4ea2aa5e5a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpideyStar_1
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 264
+        width: 585
+        height: 584
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d6167b6ddec2b4bb75671b709edddd
       vertices: []
       indices: 
       edges: []
@@ -171,7 +213,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 43baaee1c3e771645a93869e0aca9c8d
+    spriteID: fd8a8408e4ecb8240bcbdb85adf3fbec
     vertices: []
     indices: 
     edges: []
