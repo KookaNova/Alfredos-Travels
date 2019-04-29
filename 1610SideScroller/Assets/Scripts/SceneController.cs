@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
+    public UnityEvent EscKeyPressed;
+    
     public int LoadScene;
 
     public void LoadLevel()
@@ -12,7 +15,15 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene(LoadScene);
     }
     
-    public void ExitLevel()
+    public void FixedUpdate()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            EscKeyPressed.Invoke();
+        }
+    }
+    
+    public void ExitGame()
     {
         Application.Quit();
     }

@@ -8,6 +8,9 @@ TextureImporter:
     21300006: MenuReturn_Text
     21300008: DarkButton
     21300010: WhiteButton
+    21300012: Play_Text
+    21300014: Exit_Text
+    21300016: Win_Text
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -120,7 +123,7 @@ TextureImporter:
         width: 506
         height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -135,12 +138,12 @@ TextureImporter:
       name: Lose_Text
       rect:
         serializedVersion: 2
-        x: 246
+        x: 183
         y: 599
-        width: 582
-        height: 137
+        width: 697
+        height: 141
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -160,7 +163,7 @@ TextureImporter:
         width: 162
         height: 107
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -180,7 +183,7 @@ TextureImporter:
         width: 175
         height: 102
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -200,7 +203,7 @@ TextureImporter:
         width: 271
         height: 158
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -220,13 +223,73 @@ TextureImporter:
         width: 269
         height: 148
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 87fac012ffbbed94397c6ea52cddc25a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Play_Text
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 82
+        width: 189
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12caf2ebe6ecd23418530102d5abc2b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Exit_Text
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 91
+        width: 160
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 164488b0aa145564b85a9fafca8cbb7f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Win_Text
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 763
+        width: 642
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bfe0ca1ba0520245a7f4be0eca67a88
       vertices: []
       indices: 
       edges: []

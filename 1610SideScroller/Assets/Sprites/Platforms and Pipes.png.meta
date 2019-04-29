@@ -24,6 +24,7 @@ TextureImporter:
     21300038: Platforms and Pipes_19
     21300040: Platforms and Pipes_20
     21300042: Platforms and Pipes_21
+    21300044: Corner Pipe
   externalObjects: {}
   serializedVersion: 9
   mipmaps:
@@ -243,6 +244,26 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 289f051ddb5638f4692d04d0097d69f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Corner Pipe
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 1005
+        width: 489
+        height: 481
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364b64613eb2aa04a9a14d9a54796e51
       vertices: []
       indices: 
       edges: []
