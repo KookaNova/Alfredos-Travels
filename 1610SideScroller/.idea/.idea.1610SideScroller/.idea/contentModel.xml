@@ -14,7 +14,6 @@
             <e p="MoveBase.cs" t="Include" />
             <e p="MoveCharacter.cs" t="Include" />
             <e p="MoveSingleJump.cs" t="Include" />
-            <e p="MoveWithAxis.cs" t="Include" />
           </e>
           <e p="SphereEvent.cs" t="Include" />
         </e>
