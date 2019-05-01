@@ -4,15 +4,15 @@ using System.Collections;
 [RequireComponent(typeof(AudioSource))]
 public class AudioChange : MonoBehaviour
 {
-    public AudioSource AudioIntro, AudioLoop;
-    private bool _looping;
+    public AudioSource AudioSource1, AudioSource2;
+    private bool _switchingAudio;
 
     private void FixedUpdate()
     {
-        if (!AudioIntro.isPlaying && !_looping)
+        if (!AudioSource1.isPlaying && !_switchingAudio)
         {
-            AudioLoop.Play();
-            _looping = true;
+            AudioSource2.Play();
+            _switchingAudio = true;
         }
     }
     
