@@ -9,34 +9,39 @@ public class CharacterController2D : MonoBehaviour, ControlInputs.IPlayerActions
     public Animator animator;
     public GameObject artObj;
     public float speed = 1f, jump = 1f, gravity = 1f, acceleration = 1f, deceleration = .5f;
-    private Vector2 _moveVec, _currentVec;
+    private Vector2 _moveVec, _currentPosition;
     private ControlInputs _controls;
-    private BoxCollider2D boxCollider;
+    private BoxCollider2D characterCollider;
     private bool isGrounded;
 
     void Awake(){
-        boxCollider = GetComponent<BoxCollider2D>();
+        characterCollider = GetComponent<BoxCollider2D>();
         _controls = new ControlInputs();
         _controls.Player.Move.performed += OnMove;
         _controls.Player.Jump.performed += OnJump;
     } 
 
     private void Update() {
-        //tells objects how to move
+        //tells the object how to move
         if(_moveVec.x != 0){
-            _currentVec.x = Mathf.MoveTowards(_currentVec.x, speed * _moveVec.x, acceleration * Time.deltaTime);
+            _currentPosition.x = Mathf.MoveTowards(_currentPosition.x, speed * _moveVec.x, acceleration * Time.deltaTime);
 
         }
         else{
-            _currentVec.x = Mathf.MoveTowards(_currentVec.x, 0, Time.deltaTime);
+            _currentPosition.x = Mathf.MoveTowards(_currentPosition.x, 0, Time.deltaTime);
         }
-        //actually moves object
-        transform.Translate(_currentVec * Time.deltaTime);
-        //code to determine if object is grounded
-        Collider2D[] hits = Physics2D.OverlapBoxAll(transform.position, boxCollider.size, 0);
 
         //code to add gravity when not grounded
-        
+        //_currentPosition.y -= gravity * Time.deltaTime;
+        //actually moves object
+        transform.Translate(_currentPosition * Time.deltaTime);
+        //detect collisions, using translate means this isn't an automatic process.
+        Collider2D[] collisions = Physics2D.OverlapBoxAll(transform.position, characterCollider.size, 0);
+        foreach (Collider2D hit in collisions)
+        {
+            
+        }
+
 
         //play walking animation
         if(_moveVec.x != 0){
