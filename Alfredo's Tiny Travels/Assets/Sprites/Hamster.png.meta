@@ -47,6 +47,21 @@ TextureImporter:
   - first:
       213: -2476828316993626740
     second: Hamster_14
+  - first:
+      213: 518088668802409856
+    second: Hamster_15
+  - first:
+      213: 8984803976669863555
+    second: Hamster_16
+  - first:
+      213: -6735982351126918966
+    second: Hamster_17
+  - first:
+      213: 1624165794979249557
+    second: Hamster_18
+  - first:
+      213: -3900411195114000141
+    second: Hamster_19
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -226,8 +241,8 @@ TextureImporter:
       name: Hamster_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
+        x: 96
+        y: 128
         width: 32
         height: 32
       alignment: 7
@@ -247,7 +262,7 @@ TextureImporter:
       name: Hamster_4
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 96
         width: 32
         height: 32
@@ -268,7 +283,7 @@ TextureImporter:
       name: Hamster_5
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 96
         width: 32
         height: 32
@@ -289,8 +304,8 @@ TextureImporter:
       name: Hamster_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 64
+        x: 64
+        y: 96
         width: 32
         height: 32
       alignment: 7
@@ -310,8 +325,8 @@ TextureImporter:
       name: Hamster_7
       rect:
         serializedVersion: 2
-        x: 32
-        y: 64
+        x: 96
+        y: 96
         width: 32
         height: 32
       alignment: 7
@@ -331,7 +346,7 @@ TextureImporter:
       name: Hamster_8
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 64
         width: 32
         height: 32
@@ -352,8 +367,8 @@ TextureImporter:
       name: Hamster_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 32
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -373,8 +388,8 @@ TextureImporter:
       name: Hamster_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 64
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -394,8 +409,8 @@ TextureImporter:
       name: Hamster_11
       rect:
         serializedVersion: 2
-        x: 64
-        y: 32
+        x: 96
+        y: 64
         width: 32
         height: 32
       alignment: 7
@@ -416,7 +431,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -437,7 +452,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -458,7 +473,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 0
+        y: 32
         width: 32
         height: 32
       alignment: 7
@@ -470,6 +485,111 @@ TextureImporter:
       bones: []
       spriteID: c8d57fbb4c980add0800000000000000
       internalID: -2476828316993626740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hamster_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0856f1a36ee903700800000000000000
+      internalID: 518088668802409856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hamster_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e9cedfc9f60bc70800000000000000
+      internalID: 8984803976669863555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hamster_17
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac887cb8dbbf482a0800000000000000
+      internalID: -6735982351126918966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hamster_18
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59df3127f223a8610800000000000000
+      internalID: 1624165794979249557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hamster_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f0f54deea4fed9c0800000000000000
+      internalID: -3900411195114000141
       vertices: []
       indices: 
       edges: []
