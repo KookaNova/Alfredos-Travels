@@ -24,7 +24,7 @@ public class CharacterController2D : MonoBehaviour, ControlInputs.IPlayerActions
         _controls.Player.Jump.performed += OnJump;
 
     } 
-        private void OnEnable() {
+    private void OnEnable() {
         _controls.Player.Enable();
     }
     private void OnDisable() {
